@@ -1,20 +1,44 @@
-/* Importing the Lato Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 body {
-  font-family: 'Lato', sans-serif;
-  font-size: 15px;
-  padding: 0;
+  font-family: 'Scheherazade New', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 40px;
+   padding: 0;
+   text-align: center;
   margin: 0;
   line-height: 1.5;
-  background-color: #f4f4f4;
+  background-color: #e6e6e6;
+}
+
+header{
+    <h1> style=color: #d5d817;
+
+}
+
+img{
+    width:90%;
+    margin:1.25%;
+}
+
+{width: 80%;
+min-height: 40em;
+margin: auto;
+border: solid 2px #000;
+
+background-image: img/Branding.jpg
+background-size: cover;
+background-position: center center;
+background-repear: no-repeat;
 }
 
 .container {
   width: 80%;
   margin: auto;
-  /* The overflow property determines what to do if content overflows an element's box. Setting overflow to hidden will hide/clip the overflowing content. */
-  overflow: hidden;
+  
 }
 
 ul {
@@ -24,7 +48,7 @@ ul {
 
 .btn-1 {
   height: 38px;
-  background-color: #8aace0;
+  background-color: #d5d817;
   border: 0;
   padding-left: 20px;
   padding-right: 20px;
@@ -39,21 +63,21 @@ ul {
 
 .light {
   background-color: #6588ca;
-  color: #2d2b3e;
+  color: #d5d817;
 }
 
 .dark {
-  background-color: #1e0ead;
+  background-color: #d5d817;
   color: #fff;
 }
 
-/* Header */
+
 header {
-  background-color: #291172;
-  color: #fff;
-  /* Setting a min-height so the height for the header section can expand if needed */
-  min-height: 70px;
-  border-bottom: 3px solid #f5eeee;
+  background-color: #e6e6e6;
+  color: #d5d817;
+ 
+  min-height: 50px;
+  border-bottom: 3px solid #d5d817;
   padding: 5px 0;
 }
 
@@ -69,7 +93,7 @@ header ul {
 }
 
 header li {
-  /* Removes the bullet point or number on a list item */
+  
   list-style: none;
   padding: 0 20px;
 }
@@ -82,38 +106,39 @@ header a {
 }
 
 header .highlight, header #current a {
-  color: #f5f5fc;
+  color: #d5d817;
   font-weight: bold;
 }
 
 header a:hover {
-  color: #ccc;
+  color: #d5d817;
   font-weight: bold;
 }
 
-/* Showcase */
+
 #showcase {
-  min-height: 400px;
-  background-image: url('laptop.png');
+  min-height: 100px;
+  background-image: url('branding.jpeg');
   background-position: center;
   background-size: cover;
   text-align: center;
-  color: #fff;
+  color: #d5d817;
 }
 
 #showcase h1 {
   margin-top: 100px;
   margin-bottom: 10px;
-  font-size: 55px;
+  font-size: 20px;
+  background-color: #eee;
 }
 
 #showcase p {
   font-size: 20px;
 }
 
-/* Newsletter */
+
 #newsletter {
-  background-color: #2d2b3e;
+  background-color: #d5d817;
   padding: 15px;
   color: #fff;
 }
@@ -163,9 +188,10 @@ header a:hover {
   color: #f3df50;
 }
 
-/* About */
+
 #about {
-  background-color: #2d2b3e;
+  background-color: #eee;
+  background-color: ;
   padding: 20px;
 }
 
@@ -183,21 +209,21 @@ header a:hover {
   margin-top: 10px;
 }
 
-/* Services */
-#services .container {
+
+#experience .container {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-column-gap: 50px;
 }
 
-#services li {
+#education li {
   padding: 20px;
   border: 1px solid #ccc;
   margin-bottom: 5px;
-  background-color: #e6e6e6;
+  background-color: #eee;
 }
 
-#services .sidebar {
+#education .sidebar {
   margin-top: 10px;
 }
 
